@@ -1,0 +1,10 @@
+.placeholder-2,
+.placeholder-2 * {
+  box-sizing: border-box;
+}
+.placeholder-2 {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+}

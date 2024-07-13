@@ -1,0 +1,50 @@
+.au,
+.au * {
+  box-sizing: border-box;
+}
+.au {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+}
+.au .vector {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+  overflow: visible;
+}
+.au .group {
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  right: 50%;
+  left: 0%;
+  bottom: 50%;
+  top: 0%;
+  overflow: visible;
+}
+.au .group2 {
+  width: 43.48%;
+  height: 43.48%;
+  position: absolute;
+  right: 50%;
+  left: 6.52%;
+  bottom: 50%;
+  top: 6.52%;
+  overflow: visible;
+}
+.au .group3 {
+  width: 72.58%;
+  height: 58.69%;
+  position: absolute;
+  right: 8.42%;
+  left: 19.01%;
+  bottom: 19.57%;
+  top: 21.74%;
+  overflow: visible;
+}

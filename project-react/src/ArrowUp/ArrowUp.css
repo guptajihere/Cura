@@ -1,0 +1,10 @@
+.arrow-up,
+.arrow-up * {
+  box-sizing: border-box;
+}
+.arrow-up {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+}

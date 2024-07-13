@@ -1,0 +1,31 @@
+.buttons-button-size-xl-hierarchy-secondary-color-icon-only-state-disabled,
+.buttons-button-size-xl-hierarchy-secondary-color-icon-only-state-disabled * {
+  box-sizing: border-box;
+}
+.buttons-button-size-xl-hierarchy-secondary-color-icon-only-state-disabled {
+  background: var(--colors-background-bg-primary, #ffffff);
+  border-radius: var(--radius-md, 8px);
+  border-style: solid;
+  border-color: var(--colors-border-border-disabledsubtle, #eaecf0);
+  border-width: 1px;
+  padding: 14px;
+  display: flex;
+  flex-direction: row;
+  gap: var(--spacing-md, 8px);
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  box-shadow: var(
+    --shadows-shadow-xs-box-shadow,
+    0px 1px 2px 0px rgba(16, 24, 40, 0.05)
+  );
+  overflow: hidden;
+}
+
+/* nested override styles */
+.buttons-button-size-xl-hierarchy-secondary-color-icon-only-state-disabled
+  .placeholder-instance2 {
+  flex-shrink: 0 !important;
+  width: 20px !important;
+  height: 20px !important;
+}

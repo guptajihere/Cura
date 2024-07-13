@@ -1,0 +1,10 @@
+.arrow-right,
+.arrow-right * {
+  box-sizing: border-box;
+}
+.arrow-right {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+}

@@ -1,0 +1,11 @@
+.social-icon-platform-x-twitter-style-gray-state-default,
+.social-icon-platform-x-twitter-style-gray-state-default * {
+  box-sizing: border-box;
+}
+.social-icon-platform-x-twitter-style-gray-state-default {
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: visible;
+}
